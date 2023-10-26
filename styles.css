@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap");
+
+* {
+    font-family: "Jost", sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+header {
+    position: sticky;
+    background: url(Background-header.png);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+}
+
+header img {
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+}
+
+.navmenu {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.container.teste .navmenu ul li {
+    display: inline;
+}
+
+main h1 {
+    margin-bottom: 0;
+    /* Reduz a margem abaixo do h1 */
+}
+
+main h1 span {
+    color: #0cc0df;
+    margin-right: 22px;
+    font-family: mv boli;
+    font-weight: 700;
+    font-size: 72px;
+    margin-bottom: 0;
+}
+
+.content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.produto {
+    flex-basis: calc(33.33% - 20px);
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    height: 500px;
+    width: 400px;
+}
+
+.produto img {
+    max-width: 100%;
+    height: auto;
+    width: 500px;
+    height: 330px;
+    display: block;
+    border-bottom: 1px solid #ccc;
+}
+
+h1,
+p {
+    text-align: center;
+}
+
+.produto h2,
+.produto p {
+    text-align: center;
+}
+
+.produto button {
+    width: 100%;
+    background-color: #0cc0df;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #e64a19;
+}
+
+footer {
+    background: url(Background-header.png);
+    width: 100%;
+    text-align: center;
+}
+
+footer nav ul {
+    list-style: none;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: #0cc0df;
+    font-size: 18px;
+    display: inline;
+    margin: 0 5px;
+    margin-right: 100px;
+}
+
+a:hover {
+    color: #ff5733;
+}
+
+footer-nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.image{
+    width: 30px;
+    height: 30px;
+}
+
+.sociais{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
