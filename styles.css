@@ -140,9 +140,11 @@ a:hover {
 }
 
 .social-icon {
-    width: 30px;  /* ajustei o tamanho deles */
-    height: 30px; 
-    margin-right: 10px;  /* adicionei o espaçamento entre os icones */
+    width: 30px;
+    /* ajustei o tamanho deles */
+    height: 30px;
+    margin-right: 10px;
+    /* adicionei o espaçamento entre os icones */
 }
 
 table {
@@ -153,7 +155,8 @@ table {
     margin-bottom: 100px;
 }
 
-th, td {
+th,
+td {
     border: 1px solid #dddddd;
     text-align: left;
     padding: 12px;
@@ -175,7 +178,7 @@ tr:hover {
     background-color: #fff;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     max-width: 600px;
     width: 100%;
     margin: 0 auto;
@@ -214,7 +217,7 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-    background-color: #FF5733;
+    background-color: #ff5733;
 }
 
 input[type="reset"] {
@@ -228,7 +231,7 @@ input[type="reset"] {
 }
 
 input[type="reset"]:hover {
-    background-color: #FF5733;
+    background-color: #ff5733;
 }
 
 .form-group input[type="submit"],
@@ -237,7 +240,6 @@ input[type="reset"]:hover {
     width: calc(20% - 5px);
     margin-right: 5px;
 }
-
 
 .example-input {
     display: flex;
@@ -257,5 +259,35 @@ input[type="reset"]:hover {
     border: 1px solid #ccc;
     border-radius: 4px;
     font-size: 16px;
-    appearance: none; 
+    appearance: none;
+}
+
+@media screen and (max-width: 768px) {
+    .content {
+        flex-direction: column;
+        /* Altera para layout de coluna */
+    }
+
+    .produto {
+        width: 100%;
+        /* Largura total */
+    }
+
+    .produto img {
+        max-width: 100%;
+        /* Imagens responsivas */
+    }
+
+    .navmenu ul {
+        display: flex;
+        list-style: none;
+        flex-direction: column; /* Empilha os itens verticalmente */
+        align-items: center; /* Centraliza os itens */
+        text-align: center; /* Centraliza o texto */
+        margin-top: 10px; /* Espaçamento entre os itens */
+    }
+    
+    .navmenu li {
+        margin: 5px 0; /* Ajuste a margem conforme necessário */
+    }
 }
