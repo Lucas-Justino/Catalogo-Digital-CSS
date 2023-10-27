@@ -44,7 +44,6 @@ header img {
 
 main h1 {
     margin-bottom: 0;
-    /* Reduz a margem abaixo do h1 */
 }
 
 main h1 span {
@@ -141,10 +140,8 @@ a:hover {
 
 .social-icon {
     width: 30px;
-    /* ajustei o tamanho deles */
     height: 30px;
     margin-right: 10px;
-    /* adicionei o espaçamento entre os icones */
 }
 
 table {
@@ -265,29 +262,26 @@ input[type="reset"]:hover {
 @media screen and (max-width: 768px) {
     .content {
         flex-direction: column;
-        /* Altera para layout de coluna */
     }
 
     .produto {
         width: 100%;
-        /* Largura total */
     }
 
     .produto img {
         max-width: 100%;
-        /* Imagens responsivas */
     }
 
     .navmenu ul {
         display: flex;
         list-style: none;
-        flex-direction: column; /* Empilha os itens verticalmente */
-        align-items: center; /* Centraliza os itens */
-        text-align: center; /* Centraliza o texto */
-        margin-top: 10px; /* Espaçamento entre os itens */
+        flex-direction: column; 
+        align-items: center; 
+        text-align: center; 
+        margin-top: 10px; 
     }
     
     .navmenu li {
-        margin: 5px 0; /* Ajuste a margem conforme necessário */
+        margin: 5px 0; 
     }
 }
